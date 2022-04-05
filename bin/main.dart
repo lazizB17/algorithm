@@ -2,7 +2,7 @@
 import 'dart:io';
 
 void main(){
-
+  // birinchi sonni ortidan ikkinchi sonni qo'shish
   stdout.write("Enter number 1: ");
   num son1 = num.parse(stdin.readLineSync()!);
   stdout.write("Enter number 2: ");
